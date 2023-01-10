@@ -1,0 +1,33 @@
+{
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "swc": true
+  },
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "target": "esnext",
+    "moduleResolution": "node",
+    "module": "node16",
+    "composite": false,
+    "declaration": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": false,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "paths": {
+      "@/src/*": [
+        "./src/*",
+      ],
+      "@/utils/*": [
+        "./utils/*",
+      ]
+    }
+  }
+}
