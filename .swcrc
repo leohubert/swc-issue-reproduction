@@ -1,0 +1,19 @@
+{
+    "jsc": {
+        "baseUrl": ".",
+        "paths": {
+        "@/src/*": [
+            "./src/*",
+        ],
+        "@/utils/*": [
+            "./utils/*",
+        ]
+        },
+      "parser": {
+        "syntax": "typescript",
+        "tsx": false,
+        "decorators": false,
+        "dynamicImport": true
+      }
+    }
+  }
